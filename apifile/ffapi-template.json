@@ -1,22 +1,22 @@
 {
   "name": "Freifunk Muensterland",
-  "url": "https://freifunk-muensterland.de",
+  "url": "https://freifunk-donau-ries.de",
   "location": {
-    "city": "Muenster",
+    "city": "Donauwoerth",
     "country": "DE",
-    "lat": 51.9601,
-    "lon": 7.62506,
+    "lat": 48.7193,
+    "lon": 10.7774,
     "address": {
-      "Name": "Warpzone e.V.",
-      "Street": "Am Hawerkamp 31",
-      "Zipcode": "48155"
+      "Name": "Freifunk Donau-Ries e.V.",
+      "Street": "Strasse...",
+      "Zipcode": "PLZ..."
     }
   },
   "contact": {
-    "email": "info@freifunk-muensterland.de",
-    "phone": "+49 251 39500271",
-    "facebook": "https://www.facebook.com/FreifunkMS",
-    "twitter": "@freifunk_ms"
+    "email": "info@freifunk-donau-ries.de",
+    "phone": "+49 ...",
+    "facebook": "https://www.facebook.com/Freifunk-Donau-Ries-1511032979193624/",
+    "twitter": "@freifunkdon"
   },
   "state": {
     "nodes": #NUMNODES#,
@@ -27,19 +27,14 @@
     {
       "serviceName": "Firmware Update",
       "serviceDescription": "Firmware Update Server",
-      "internalUri": "firmware.ffms"
+      "internalUri": "firmware2.ffdon.de"
     }
   ],
   "timeline": [
     {
-      "description": "Renaming to Freifunk Muensterland",
-      "timestamp": "2015-05-04",
-      "url": "https://freifunk-muensterland.de/neue-url-freifunk-muensterland-de/"
-    },
-    {
-      "description": "Rebirth of Freifunk in Münster with the end of the experimental stage. Talk about Freifunk in the Warpzone.",
-      "timestamp": "2014-07-12",
-      "url": "https://www.warpzone.ms/perma/freifunk-vortrag/1671/"
+      "description": "Gruendung von Freifunk Donau-Ries",
+      "timestamp": "2016-02-21",
+      "url": "https://www.freifunk-donau-ries.de/2016/02/21/gruendungstreffen/"
     }
   ],
   "feeds": [
