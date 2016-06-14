@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEMPLATE="/var/services-ffms/apifile/ffapi-template.json"
+TEMPLATE="/var/services-ffdon/apifile/ffapi-template.json"
 APIFILE="/var/www/freifunk/ffapi.json"
 
 NUMNODES=$(sh -c "/usr/sbin/batctl vd json; /usr/sbin/batadv-vis -f json" | grep -c '{ \"primary\" : .* }')
