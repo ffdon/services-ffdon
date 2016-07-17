@@ -1,36 +1,40 @@
 {
   "gateway-fanlin": {
-    "node_id": "gateway-fanlin",
-    "hostname": "gateway-fanlin",
+    "node_id": "gateway-02",
+    "hostname": "gateway-02",
     "network": {
-	  "mac": "de:ad:be:ef:43:02",
+	  "mac": "de:ad:be:ef:01:02",
       "mesh_interfaces": [
-        "de:ad:be:ef:43:02",
-        "de:ad:be:ef:44:02",
-        "de:ad:be:ef:45:02",
-        "de:ad:be:ef:46:02",
-        "de:ad:be:ef:47:02",
-        "de:ad:be:ef:48:02",
-        "de:ad:be:ef:49:02"
+        "de:ad:be:ef:02:02",
+        "de:ad:be:ef:03:02",
+        "de:ad:be:ef:04:02",
+        "de:ad:be:ef:05:02",
+        "de:ad:be:ef:06:02",
+        "de:ad:be:ef:07:02",
+        "de:ad:be:ef:08:02",
+        "de:ad:be:ef:09:02",
+        "de:ad:be:ef:10:02"
       ],		
       "mesh": {
 	    "bat0": { 
 		  "interfaces": {
 		    "tunnel": [
-              "de:ad:be:ef:43:02",
-              "de:ad:be:ef:44:02",
-              "de:ad:be:ef:45:02",
-              "de:ad:be:ef:46:02",
-              "de:ad:be:ef:47:02",
-              "de:ad:be:ef:48:02",
-              "de:ad:be:ef:49:02"
+              "de:ad:be:ef:02:02",
+              "de:ad:be:ef:03:02",
+              "de:ad:be:ef:04:02",
+              "de:ad:be:ef:05:02",
+              "de:ad:be:ef:06:02",
+              "de:ad:be:ef:07:02",
+              "de:ad:be:ef:08:02",
+              "de:ad:be:ef:09:02",
+              "de:ad:be:ef:10:02"
             ]
 		  }
 		}
       }		
     },
     "hardware": {
-      "model": "qemu-kvm"
+      "model": "hetzner"
     },
     "software": {
       "firmware": {
@@ -38,125 +42,7 @@
         "base": "Debian"
       }
     }	
-  },
-  "gateway-fusselkater": {
-    "node_id": "gateway-fusselkater",
-    "hostname": "gateway-fusselkater",
-    "network": {
-      "mesh": {
-	    "bat0": { 
-		  "interfaces": {
-		    "tunnel": [
-              "de:ad:be:ef:43:04",
-              "de:ad:be:ef:44:04",
-              "de:ad:be:ef:45:04",
-              "de:ad:be:ef:46:04",
-              "de:ad:be:ef:47:04",
-              "de:ad:be:ef:48:04",
-              "de:ad:be:ef:49:04"
-            ]
-		  }
-		}
-      }		
-    },
-    "hardware": {
-      "model": "qemu-kvm"
-    },
-    "software": {
-      "firmware": {
-        "release": "Wheezy",
-        "base": "Debian"
-      }
-    }
-  },
-  "gateway-commander1024": {
-    "node_id": "gateway-commander1024",
-    "hostname": "gateway-commander1024",
-    "network": {
-      "mesh": {
-	    "bat0": { 
-		  "interfaces": {
-		    "tunnel": [
-              "de:ad:be:ef:43:05",
-              "de:ad:be:ef:44:05",
-              "de:ad:be:ef:45:05",
-              "de:ad:be:ef:46:05",
-              "de:ad:be:ef:47:05",
-              "de:ad:be:ef:48:05",
-              "de:ad:be:ef:49:05"
-            ]
-		  }
-		}
-      }		
-    },
-    "hardware": {
-      "model": "qemu-kvm"
-    },
-    "software": {
-      "firmware": {
-        "release": "Wheezy",
-        "base": "Debian"
-      }
-    }
-  },
-  "gateway-parad0x": {
-    "node_id": "gateway-parad0x",
-    "hostname": "gateway-parad0x",
-    "network": {
-      "mesh": {
-	    "bat0": { 
-		  "interfaces": {
-		    "tunnel": [
-              "de:ad:be:ef:43:06",
-              "de:ad:be:ef:44:06",
-              "de:ad:be:ef:45:06",
-              "de:ad:be:ef:46:06",
-              "de:ad:be:ef:47:06",
-              "de:ad:be:ef:48:06",
-              "de:ad:be:ef:49:06"
-            ]
-		  }
-		}
-      }		
-    },
-    "hardware": {
-      "model": "qemu-kvm"
-    },
-    "software": {
-      "firmware": {
-        "release": "Wheezy",
-        "base": "Debian"
-      }
-    }
-  },
-  "gateway-sense": {
-    "node_id": "gateway-sense",
-    "hostname": "gateway-sense",
-    "network": {
-      "mesh": {
-	    "bat0": { 
-		  "interfaces": {
-		    "tunnel": [
-              "de:ad:be:ef:43:07",
-              "de:ad:be:ef:44:07",
-              "de:ad:be:ef:45:07",
-              "de:ad:be:ef:46:07",
-              "de:ad:be:ef:47:07",
-              "de:ad:be:ef:48:07",
-              "de:ad:be:ef:49:07"
-            ]
-		  }
-		}
-      }		
-    },
-    "hardware": {
-      "model": "qemu-kvm"
-    },
-    "software": {
-      "firmware": {
-        "release": "Wheezy",
-        "base": "Debian"
-      }
+  }
     }
   }
 }
