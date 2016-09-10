@@ -1,49 +1,68 @@
 {
-  "gateway-fanlin": {
-    "node_id": "gateway-02",
-    "hostname": "gateway-02",
+  "gw02": {
+    "node_id": "gw02",
+    "hostname": "gw02",
     "network": {
-	  "mac": "de:ad:be:ef:01:02",
-      "mesh_interfaces": [
-        "de:ad:be:ef:02:02",
-        "de:ad:be:ef:03:02",
-        "de:ad:be:ef:04:02",
-        "de:ad:be:ef:05:02",
-        "de:ad:be:ef:06:02",
-        "de:ad:be:ef:07:02",
-        "de:ad:be:ef:08:02",
-        "de:ad:be:ef:09:02",
-        "de:ad:be:ef:10:02"
-      ],		
       "mesh": {
 	    "bat0": { 
 		  "interfaces": {
 		    "tunnel": [
-              "de:ad:be:ef:02:02",
-              "de:ad:be:ef:03:02",
-              "de:ad:be:ef:04:02",
-              "de:ad:be:ef:05:02",
-              "de:ad:be:ef:06:02",
-              "de:ad:be:ef:07:02",
-              "de:ad:be:ef:08:02",
-              "de:ad:be:ef:09:02",
-              "de:ad:be:ef:10:02"
+              "b6:c1:31:86:94:29",
+              "06:43:c8:2f:75:d4",
+              "0a:79:68:9f:79:85",
+              "12:a4:02:f7:4a:e6",
+              "06:ba:5b:2d:55:ff",
+              "00:00:00:00:00:00",
+              "00:00:00:00:00:00",
+              "0e:38:02:d5:71:d0",
+              "46:ba:e6:d6:c3:7c",
+              "fa:47:d4:6c:33:f4"
             ]
 		  }
 		}
       }		
     },
     "hardware": {
-      "model": "hetzner"
+      "model": "CX10vServer"
     },
     "software": {
       "firmware": {
-        "release": "Wheezy",
+        "release": "Jessie",
         "base": "Debian"
       }
-    }	
-  }
+    }
+  },
+  "gw03": {
+    "node_id": "gateway-sense",
+    "hostname": "gateway-sense",
+    "network": {
+      "mesh": {
+	    "bat0": { 
+		  "interfaces": {
+		    "tunnel": [
+              "00:00:00:00:00:00",
+              "22:cb:21:68:b2:91",
+              "22:7b:dc:84:75:c2",
+              "0a:82:ba:fa:00:95",
+              "76:e4:d4:90:a0:77",
+              "82:f0:e2:92:1a:1e",
+              "02:86:a7:64:46:58",
+              "32:f6:6f:5b:71:98",
+              "56:ba:ed:e1:23:60",
+              "66:5e:12:d6:39:86"
+            ]
+		  }
+		}
+      }		
+    },
+    "hardware": {
+      "model": "1blu-RootServer X"
+    },
+    "software": {
+      "firmware": {
+        "release": "Jessie",
+        "base": "Debian"
+      }
     }
   }
 }
-
