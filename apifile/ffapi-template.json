@@ -1,101 +1,38 @@
 {
   "name": "Freifunk Donau-Ries",
-  "url": "https://freifunk-donau-ries.de",
+  "url": "https://www.freifunk-donau-ries.de/",
   "location": {
-    "city": "Donauwoerth",
+    "city": "Donauwörth",
     "country": "DE",
-    "lat": 48.7193,
-    "lon": 10.7774,
-    "address": {
-      "Name": "Freifunk Donau-Ries e.V.",
-      "Street": "Strasse...",
-      "Zipcode": "PLZ..."
-    }
+    "lat": 48.7195295,
+    "lon": 10.7760309
   },
   "contact": {
     "email": "info@freifunk-donau-ries.de",
-    "phone": "+49 ...",
-    "facebook": "https://www.facebook.com/Freifunk-Donau-Ries-1511032979193624/",
-    "twitter": "@freifunkdon"
+    "phone": "0 906-12672267",
+    "facebook": "https://www.facebook.com/freifunkdon/"
   },
   "state": {
-    "nodes": #NUMNODES#,
-    "lastchange": "#LASTCHANGE#",
-    "focus": []
+    "nodes": 170,
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Free internet access"
+    ],
+    "lastchange": "2016-09-17T17:41:31.659Z"
   },
-  "services": [
-    {
-      "serviceName": "Firmware Update",
-      "serviceDescription": "Firmware Update Server",
-      "internalUri": "firmware2.ffdon.de"
-    }
-  ],
-  "timeline": [
-    {
-      "description": "Gruendung von Freifunk Donau-Ries",
-      "timestamp": "2016-02-21",
-      "url": "https://www.freifunk-donau-ries.de/2016/02/21/gruendungstreffen/"
-    }
-  ],
-  "feeds": [
-    {
-      "name": "Freifunk Münsterland Homepage Beitrags Feed",
-      "category": "blog",
-      "type": "rss",
-      "url": "https://freifunk-muensterland.de/feed/"
-    },
-    {
-      "name": "Freifunk Münsterland Wiki Feed",
-      "category": "wiki",
-      "type": "rss",
-      "url": "https://freifunk-muensterland.de/wiki/feed.php"
-    }
-  ],
   "nodeMaps": [
     {
-      "url": "https://service.ffdon.de/maps/map/",
-      "interval": "1x pro Minute",
-      "technicalType": "ffmap"
+      "url": "https://karte.ffdon.de/map/",
+      "interval": "60s",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
     }
   ],
-  "support": {
-    "club": {
-      "name": "warpzone e.V.",
-      "street": "Am Hawerkamp 31",
-      "zip": "48155",
-      "city": "Münster",
-      "url": "https://www.warpzone.ms/",
-      "email": "office@warpzone.ms"
-    }
-  },
   "techDetails": {
     "firmware": {
-      "name": "gluon",
-      "url": "https://freifunk-muensterland.de/site-ffms/stable/factory/",
-      "docs": "https://github.com/FreiFunkMuenster/site-ffms"
-    },
-    "dns": [
-      {
-        "domainname": "ffms",
-        "nameserver": [
-          "10.43.0.2",
-          "10.43.0.4",
-          "10.43.0.5",
-          "10.43.0.6"
-        ]
-      }
-    ],
-    "networks": {
-      "ipv6": [
-        {
-          "network": "2a03:2260:115::/48"
-        }
-      ],
-      "ipv4": [
-        {
-          "network": "10.43.0.0/16"
-        }
-      ]
+      "name": "Gluon",
+      "url": "http://firmware.ffdon.de/"
     },
     "routing": [
       "batman-adv"
@@ -103,7 +40,8 @@
     "updatemode": [
       "manual",
       "autoupdate"
-    ]
+    ],
+    "legals": []
   },
-  "api": "0.4.8"
+  "api": "0.4.14"
 }
