@@ -13,13 +13,13 @@
     "facebook": "https://www.facebook.com/freifunkdon/"
   },
   "state": {
-    "nodes": 170,
+    "nodes": #NUMNODES#,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Free internet access"
     ],
-    "lastchange": "2016-09-17T17:41:31.659Z"
+    "lastchange": "#LASTCHANGE#"
   },
   "nodeMaps": [
     {
