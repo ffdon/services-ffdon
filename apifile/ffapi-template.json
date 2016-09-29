@@ -1,46 +1,39 @@
 {
-  "name": "Freifunk Donau-Ries",
-  "url": "https://www.freifunk-donau-ries.de/",
+  "name": "Freifunk Donauwörth",
+  "url": "http://www.freifunk-donau-ries.de",
   "location": {
     "city": "Donauwörth",
     "country": "DE",
-    "lat": 48.7195295,
-    "lon": 10.7760309
+    "lat": 48.71090025795715,
+    "lon": 10.7830810546875
   },
   "contact": {
-    "email": "info@freifunk-donau-ries.de",
-    "phone": "0 906-12672267",
-    "facebook": "https://www.facebook.com/freifunkdon/"
+    "email": "nico@freifunk-donau-ries.de"
   },
+  "metacommunity": "Freifunk Donau-Ries",
   "state": {
     "nodes": #NUMNODES#,
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
+      "Social Community Building",
       "Free internet access"
     ],
     "lastchange": "#LASTCHANGE#"
   },
-  "nodeMaps": [
-    {
-      "url": "https://karte.ffdon.de/map/",
-      "interval": "60s",
-      "technicalType": "meshviewer",
-      "mapType": "geographical"
-    }
-  ],
   "techDetails": {
     "firmware": {
       "name": "Gluon",
-      "url": "http://firmware.ffdon.de/"
+      "url": "http://firmware.ffdon.de/",
+      "vpnaccess": "fwimage"
     },
-    "routing": [
-      "batman-adv"
+    "dns": [
+      {
+        "domainname": "ffdon.de"
+      }
     ],
-    "updatemode": [
-      "manual",
-      "autoupdate"
-    ],
+    "routing": [],
+    "updatemode": [],
     "legals": []
   },
   "api": "0.4.14"
