@@ -21,6 +21,14 @@
     ],
     "lastchange": "#LASTCHANGE#"
   },
+  "nodeMaps": [
+    {
+      "url": "https://karte.ffdon.de/map/",
+      "interval": "60s",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
   "techDetails": {
     "firmware": {
       "name": "Gluon",
